@@ -3,11 +3,12 @@
   "version": "1.1.1",
   "description": "",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "node index.ts"
+    "dev": "node dist/index.js"
   },
   "author": "shantanuz06",
   "license": "ISC",
