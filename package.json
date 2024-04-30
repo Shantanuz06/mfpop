@@ -12,10 +12,11 @@
   "author": "shantanuz06",
   "license": "ISC",
   "devDependencies": {
+    "@types/luxon": "^3.4.2",
     "@types/node": "^20.12.7",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "moment": "^2.30.1"
+    "luxon": "^3.4.4"
   }
 }
